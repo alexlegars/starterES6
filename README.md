@@ -1,7 +1,7 @@
 # Webpack 3 Config
 
 
-```
+```x-sh
 npm install
 ```
 - ```npm start``` to run Dev Server with build files on cache | Running on 127.0.0.1:3000

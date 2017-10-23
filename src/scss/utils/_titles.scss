@@ -1,0 +1,63 @@
+.title_general {
+  color: $black;
+  font-family: Arial;
+  span {
+    font-family: Courrier;
+  }
+
+// Page d'accueil et page services
+  &-big {
+    font-size: 60px;
+    line-height: 58px;
+    @include mobile {
+      font-size: 30px;
+      line-height: 32px;
+    }
+  }
+
+// Page couleurs et page mag
+  &-normal {
+    font-size: 40px;
+    line-height: 58px;
+    @include mobile {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+
+// Page article
+  &-article {
+    font-size: 30px;
+    line-height: 40px;
+    color: $nosferapti;
+    text-align: center;
+    span {
+      color: $tortank;
+      display: block;
+    }
+    @include mobile {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+}
+
+// Page d'accueil et page mag
+.title_categorie {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: $mewtwo;
+  &-activ {
+    color: $tortank;
+  }
+}
+
+// Pages déchèteries et nous trouver
+.title_italic {
+  font-size: 25px;
+  color: $black;
+  font-family: arial;
+  @include mobile {
+    font-size: 20px;
+  }
+}
